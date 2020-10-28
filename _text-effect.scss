@@ -1,0 +1,15 @@
+@import "_variables.scss";
+
+.text-effect {
+  background-image: url(./media/trees.jpg);
+  background-position: center;
+  color: transparent;
+  font-size: 8rem;
+  -webkit-background-clip: text;
+  transition: all 0.3s;
+}
+
+.text-effect:hover {
+  transform: skewY(-10deg);
+  letter-spacing: 3rem;
+}

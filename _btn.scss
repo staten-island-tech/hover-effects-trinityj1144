@@ -6,7 +6,7 @@
   text-transform: uppercase;
   text-decoration: none;
   padding: 1.5rem 4rem;
-  background-color: color(#67a5ff);
+  background-color: color(red);
   margin: 1rem auto;
   font-size: 2rem;
   border-radius: 10rem;
@@ -14,13 +14,13 @@
   position: relative;
 }
 
-.btn-blue {
-  background-color: color(#67a5ff);
+.btn-red {
+  background-color: color(red);
   color: #fff;
 }
 
-.btn-blue::after {
-  background-color: color(#67a5ff);
+.btn-red::after {
+  background-color: color(red);
   color: #fff;
 }
 

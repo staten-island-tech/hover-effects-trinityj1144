@@ -1,14 +1,18 @@
 @import "_variables.scss";
 @import "_btn.scss";
+@import "_squirrel.scss";
+@import "_text-effect.scss";
+@import "_fall.scss";
+@import "_explore.scss";
 
-.container{
-    width: 80vw;
-    margin: 2rem auto;
-    display: flex;
-    flex-direction:column;
-    justify-content: space-around;
-    padding: 1rem;
-    font-size: 1.5rem;
-    align-items: center;
-    text-align: center;
+.container {
+  width: 80vw;
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 1rem;
+  font-size: 1.5rem;
+  align-items: center;
+  text-align: center;
 }
