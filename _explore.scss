@@ -18,13 +18,13 @@
   position: absolute;
   top: 100%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -90%);
   transition: all 0.3s;
   text-transform: uppercase;
 }
 
 .explore:hover .explore-picture {
-  filter: grayscale(90%);
+  filter: blur(1.5px);
 }
 
 .explore:hover .explore-header {

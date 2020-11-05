@@ -6,12 +6,13 @@
   text-transform: uppercase;
   text-decoration: none;
   padding: 1.5rem 4rem;
-  background-color: color(red);
+  background-color: red;
   margin: 1rem auto;
   font-size: 2rem;
   border-radius: 10rem;
   transition: all 0.3s;
   position: relative;
+  opacity: 0.5;
 }
 
 .btn-red {
@@ -25,8 +26,9 @@
 }
 
 .btn:hover {
-  transform: translateY(-2px);
+  transform: translateY(-5px);
   box-shadow: 0 10px 0.5rem rgba(color(black), 0.6);
+  opacity: 1;
 }
 
 .btn::after {

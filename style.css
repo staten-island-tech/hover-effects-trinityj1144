@@ -20,13 +20,14 @@ html {
   text-transform: uppercase;
   text-decoration: none;
   padding: 1.5rem 4rem;
-  background-color: #ff5722;
+  background-color: red;
   margin: 1rem auto;
   font-size: 2rem;
   border-radius: 10rem;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   position: relative;
+  opacity: 0.5;
 }
 
 .btn-red {
@@ -40,10 +41,11 @@ html {
 }
 
 .btn:hover {
-  -webkit-transform: translateY(-2px);
-          transform: translateY(-2px);
+  -webkit-transform: translateY(-5px);
+          transform: translateY(-5px);
   -webkit-box-shadow: 0 10px 0.5rem rgba(0, 0, 0, 0.6);
           box-shadow: 0 10px 0.5rem rgba(0, 0, 0, 0.6);
+  opacity: 1;
 }
 
 .btn::after {
@@ -207,16 +209,16 @@ html {
   position: absolute;
   top: 100%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -90%);
+          transform: translate(-50%, -90%);
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   text-transform: uppercase;
 }
 
 .explore:hover .explore-picture {
-  -webkit-filter: grayscale(90%);
-          filter: grayscale(90%);
+  -webkit-filter: blur(1.5px);
+          filter: blur(1.5px);
 }
 
 .explore:hover .explore-header {
