@@ -23,10 +23,7 @@
   box-shadow: 0 3rem 1rem rgba(0, 0, 0, 0.4);
   outline: 1rem solid color(blue);
   z-index: 2;
-}
-
-.fall-gallery:hover .fall-photo:not(:hover) {
-  transform: scale(0.8);
+  border-radius: 50%;
 }
 
 .fall-photo-1 {

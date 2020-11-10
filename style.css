@@ -20,7 +20,7 @@ html {
   text-transform: uppercase;
   text-decoration: none;
   padding: 1.5rem 4rem;
-  background-color: red;
+  background-color: #ff5722;
   margin: 1rem auto;
   font-size: 2rem;
   border-radius: 10rem;
@@ -43,8 +43,8 @@ html {
 .btn:hover {
   -webkit-transform: translateY(-5px);
           transform: translateY(-5px);
-  -webkit-box-shadow: 0 10px 0.5rem rgba(0, 0, 0, 0.6);
-          box-shadow: 0 10px 0.5rem rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: 0 10px 0.5rem rgba(0, 0, 0, 0.4);
+          box-shadow: 0 10px 0.5rem rgba(0, 0, 0, 0.4);
   opacity: 1;
 }
 
@@ -159,11 +159,7 @@ html {
           box-shadow: 0 3rem 1rem rgba(0, 0, 0, 0.4);
   outline: 1rem solid #00b0ff;
   z-index: 2;
-}
-
-.fall-gallery:hover .fall-photo:not(:hover) {
-  -webkit-transform: scale(0.8);
-          transform: scale(0.8);
+  border-radius: 50%;
 }
 
 .fall-photo-1 {

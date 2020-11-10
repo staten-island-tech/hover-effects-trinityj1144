@@ -6,7 +6,7 @@
   text-transform: uppercase;
   text-decoration: none;
   padding: 1.5rem 4rem;
-  background-color: red;
+  background-color: color(red);
   margin: 1rem auto;
   font-size: 2rem;
   border-radius: 10rem;
@@ -27,7 +27,7 @@
 
 .btn:hover {
   transform: translateY(-5px);
-  box-shadow: 0 10px 0.5rem rgba(color(black), 0.6);
+  box-shadow: 0 10px 0.5rem rgba(color(black), 0.4);
   opacity: 1;
 }
 
